@@ -2503,6 +2503,17 @@ textarea {
   z-index: 10;
   padding-top: 48px;
 }
+
+@media all and (max-width: 767px){
+  .banner_popup .bannerExtraWrapper {
+    width: 300px;
+  }
+
+  .banner_popup {
+    padding: 30px 10px;
+  }
+}
+
 .banner_popup .bannerExtraWrapper .close_banner {
   position: absolute;
   top: 0;
