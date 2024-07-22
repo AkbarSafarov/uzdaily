@@ -950,7 +950,14 @@ textarea {
 
 .footer {
   background: #fff;
-  padding: 32px 16px;
+  padding: 32px 317px;
+}
+
+@media all and (max-width: 1600px){
+  .footer {
+    background: #fff;
+    padding: 32px 16px;
+  }
 }
 
 .footer_top {
