@@ -115,14 +115,14 @@ $(function(){
     });
 
 
-    var tmenu = $('.banners_block_wr'),
+    var tmenu = $('.header'),
         tmenuOffset = tmenu.offset();
 
     $(window).scroll(function(){
         if (($(window).scrollTop() > tmenuOffset.top)) {
-            tmenu.addClass('fixed'); 
+            $('.banners_block_wr').addClass('fixed'); 
         } else {
-            tmenu.removeClass('fixed');
+            $('.banners_block_wr').removeClass('fixed');
         };
     }); 
 });
