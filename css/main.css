@@ -2459,7 +2459,10 @@ textarea {
   .banners_block_wr .content_block_wr {
     padding: 0 200px;
   }
- 
+  .banners_block_wr .banner_left,
+  .banners_block_wr .banner_right  {
+    width: 180px;
+  }
 }
 
 @media all and (max-width: 1390px){
