@@ -955,7 +955,12 @@ textarea {
 
 @media all and (max-width: 1600px){
   .footer {
-    background: #fff;
+    padding: 32px 200px;
+  }
+}
+
+@media all and (max-width: 1390px){
+  .footer {
     padding: 32px 16px;
   }
 }
@@ -2407,6 +2412,8 @@ textarea {
   padding: 0 317px;
   position: relative;
 }
+
+
 .banners_block_wr .banner_left {
   position: absolute;
   top: 130px;
@@ -2450,8 +2457,16 @@ textarea {
 }
 @media all and (max-width: 1600px) {
   .banners_block_wr .content_block_wr {
+    padding: 0 200px;
+  }
+ 
+}
+
+@media all and (max-width: 1390px){
+  .banners_block_wr .content_block_wr {
     padding: 0;
   }
+
   .banners_block_wr .banner_left,
   .banners_block_wr .banner_right,
   .banners_block_wr .banner_bottom {
