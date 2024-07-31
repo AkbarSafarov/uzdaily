@@ -2563,3 +2563,49 @@ textarea {
 .banner_popup .banner_inner img {
   border-radius: 16px;
 }
+
+.banne_detals_top {
+  display: none;
+  max-width: 1236px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banne_detals_top a{
+  display: block;
+  text-decoration: none;
+}
+
+.banne_detals_top2 {
+  display: none;
+  max-width: 1236px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.banne_detals_top2 a{
+  display: block;
+  text-decoration: none;
+}
+
+.banne_detals_bottom {
+  display: none;
+  max-width: 1236px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.banne_detals_bottom a{
+  display: block;
+  text-decoration: none;
+}
+
+@media all and (max-width: 767px){
+  .banne_detals_top,
+  .banne_detals_top2,
+  .banne_detals_bottom {
+    display: block;
+  }
+}
